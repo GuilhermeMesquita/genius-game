@@ -197,6 +197,7 @@ const waitForPlayerClick = () => {
 	}), 5000;
 }
 
+// Verificar instabilidade
 const resetOrPlayAgain = () => {
 	_data.playerCanPlay = false;
 	if (_data.strict) {
