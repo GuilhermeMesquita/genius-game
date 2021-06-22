@@ -95,6 +95,8 @@ _gui.pads.forEach(pad => {
 	pad.addEventListener("click", padListener);
 });
 
+
+// Verificar instabilidade
 const startGame = () => {
 	blink("---", () => {
 		newColor();
